@@ -1,0 +1,116 @@
+/* tried to add the dubai font, but font face did not work and I was confused because that was the only method i found online*/
+body{
+  background-color: #F3F2EE;
+  font-family: 'Dubai-Regular';
+}
+a{
+  text-decoration: none;
+}
+/* made the nav bar a flex box and used the features I learnt from the flexbox frog*/
+.nav-bar{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+  top: 0;
+}
+#logo{
+  height: 35px;
+  width: auto;
+}
+.icons{
+  display: flex;
+  margin-right: 50px;
+  margin-top: 10px;
+}
+.left{
+  display: flex;
+  align-items: flex-start;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.icon{
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  align-items: center;
+}
+#search{
+  border: 1px solid grey;
+  border-radius: 5px;
+  height: 30px;
+  padding: 2px 23px 2px 15px;
+  outline: 0;
+  margin-left: 20px;
+}
+
+.title{
+  font-size: 36px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+.body{
+  font-size:20px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+.comments{
+  margin-left: 75px;
+}
+.name{
+  font-size: 18px;
+  margin-left: 10px;
+}
+#pfp{
+  height: 35px;
+  width: auto;
+}
+.info{
+  display: flex;
+  align-items: center;
+}
+
+
+@font-face {
+  font-family: 'Dubai-Bold';
+	src:  url('https://cdn.rawgit.com/rtaibah/dubai-font-cdn/7aebfc4b/fonts/Dubai-Bold.eot');
+  src:  url('https://cdn.rawgit.com/rtaibah/dubai-font-cdn/7aebfc4b/fonts/Dubai-Bold.eot') format('embedded-opentype'),
+        url('https://cdn.rawgit.com/rtaibah/dubai-font-cdn/7aebfc4b/fonts/Dubai-Bold.woff2') format('woff2'),
+        url('https://cdn.rawgit.com/rtaibah/dubai-font-cdn/7aebfc4b/fonts/Dubai-Bold.woff') format('woff'),
+        url('https://cdn.rawgit.com/rtaibah/dubai-font-cdn/7aebfc4b/fonts/Dubai-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Dubai-Medium';
+	src:  url('https://cdn.rawgit.com/rtaibah/dubai-font-cdn/7aebfc4b/fonts/Dubai-Medium.eot');
+  src:  url('https://cdn.rawgit.com/rtaibah/dubai-font-cdn/7aebfc4b/fonts/Dubai-Medium.eot') format('embedded-opentype'),
+        url('https://cdn.rawgit.com/rtaibah/dubai-font-cdn/7aebfc4b/fonts/Dubai-Medium.woff2') format('woff2'),
+        url('https://cdn.rawgit.com/rtaibah/dubai-font-cdn/7aebfc4b/fonts/Dubai-Medium.woff') format('woff'),
+        url('https://cdn.rawgit.com/rtaibah/dubai-font-cdn/7aebfc4b/fonts/Dubai-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Dubai-Regular';
+	src:  url('https://cdn.rawgit.com/rtaibah/dubai-font-cdn/7aebfc4b/fonts/Dubai-Regular.eot');
+  src:  url('https://cdn.rawgit.com/rtaibah/dubai-font-cdn/7aebfc4b/fonts/Dubai-Regular.eot') format('embedded-opentype'),
+        url('https://cdn.rawgit.com/rtaibah/dubai-font-cdn/7aebfc4b/fonts/Dubai-Regular.woff2') format('woff2'),
+        url('https://cdn.rawgit.com/rtaibah/dubai-font-cdn/7aebfc4b/fonts/Dubai-Regular.woff') format('woff'),
+        url('https://cdn.rawgit.com/rtaibah/dubai-font-cdn/7aebfc4b/fonts/Dubai-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Dubai-Light';
+	src:  url('https://cdn.rawgit.com/rtaibah/dubai-font-cdn/7aebfc4b/fonts/Dubai-Light');
+  src:  url('https://cdn.rawgit.com/rtaibah/dubai-font-cdn/7aebfc4b/fonts/Dubai-Light.eot') format('embedded-opentype'),
+        url('https://cdn.rawgit.com/rtaibah/dubai-font-cdn/7aebfc4b/fonts/Dubai-Light.woff2') format('woff2'),
+        url('https://cdn.rawgit.com/rtaibah/dubai-font-cdn/7aebfc4b/fonts/Dubai-Light.woff') format('woff'),
+        url('https://cdn.rawgit.com/rtaibah/dubai-font-cdn/7aebfc4b/fonts/Dubai-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

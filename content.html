@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <!-- Icons for the home and my network buttons in the navigation bar -->
+    <script src="https://kit.fontawesome.com/989573e242.js" crossorigin="anonymous"></script>
+    <title>Task 1</title>
+    <div class="nav-bar">
+      <!-- Split the navigation bar to two parts, one on the left and one on the right -->
+      <div class="left">
+        <img src="./assets/logo.webp" id="logo">
+        <input type="text" placeholder="Search" id="search" data-search>
+      </div>
+      <div class="icons">
+        <a href="content.html">
+          <span class="icon">
+            <i class="fa-solid fa-house fa-xl"></i>
+            <p>Home</p>
+          </span>
+        </a>
+        <span class="icon">
+          <i class="fa-solid fa-user fa-xl"></i>
+          <p>My Network</p>
+        </span>
+      </div>
+    </div>
+  </head>
+  <body>
+    <!-- This is the template that will hold all the individual divs fetched from the API-->
+    <template data-post-template>
+        <div class="post" id="post">
+          <div class="title" data-title>
+
+          </div>
+          <div class="body" data-body>
+
+          </div>
+        </div>
+    </template>
+
+      <div class="cards" data-cards>
+      </div>
+
+  </body>
+</html>
